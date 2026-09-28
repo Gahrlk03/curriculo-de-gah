@@ -1,0 +1,176 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+
+header {
+    background: linear-gradient(135deg, #12355B, #1d5d91);
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 20px;
+}
+
+header h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+/* Linha */
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #C62828;
+    margin-top: 25px;
+}
+
+/* Conteúdo principal */
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Seções */
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-left: 5px solid #C62828;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Títulos */
+
+section h2 {
+    color: #12355B;
+    font-size: 23px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 8px;
+}
+
+/* Textos */
+
+section p {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* Lista de habilidades */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f0f4f8;
+    color: #12355B;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border-left: 4px solid #C62828;
+}
+
+/* Vídeo */
+
+video {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+/* Áudio */
+
+audio {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 15px;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #12355B;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Responsividade */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 23px;
+    }
+
+    header img {
+        width: 120px;
+        height: 120px;
+    }
+
+    main {
+        padding: 0 12px;
+        margin-top: 20px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 20px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+}
